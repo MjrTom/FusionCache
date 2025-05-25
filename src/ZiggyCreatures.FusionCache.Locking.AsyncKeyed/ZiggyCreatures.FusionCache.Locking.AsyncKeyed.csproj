@@ -1,4 +1,4 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
+<Project Sdk="Microsoft.NET.Sdk">
 
 	<PropertyGroup>
 		<TargetFrameworks>netstandard2.0;net8.0;net9.0</TargetFrameworks>
@@ -19,7 +19,7 @@
 	</ItemGroup>
 
 	<ItemGroup>
-		<PackageReference Include="AsyncKeyedLock" Version="7.1.4" />
+		<PackageReference Include="AsyncKeyedLock" Version="7.1.6" />
 	</ItemGroup>
 
 	<ItemGroup>
