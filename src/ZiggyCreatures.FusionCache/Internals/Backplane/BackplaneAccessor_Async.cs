@@ -247,7 +247,14 @@ internal partial class BackplaneAccessor
 		activity?.SetTag(Tags.Names.BackplaneMessageSourceId, message.SourceId);
 
 		// REVERT THE PREVIOUS CURRENT ACTIVITY
-		Activity.Current = previous;
+		if (Activities.CanSetAsCurrent(previous))
+		{
+			Activity.Current = previous;
+		}
+		else
+		{
+			Activity.Current = null;
+		}
 
 		// EVENT
 		_events.OnMessageReceived(operationId, message);
