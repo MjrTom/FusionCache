@@ -43,6 +43,7 @@
 	</ItemGroup>
 
 	<ItemGroup>
+  	<PackageReference Include="Microsoft.Bcl.AsyncInterfaces" Version="10.0.5" />
 		<InternalsVisibleTo Include="ZiggyCreatures.FusionCache.Benchmarks" />
 		<InternalsVisibleTo Include="ZiggyCreatures.FusionCache.Tests" />
 	</ItemGroup>
