@@ -28,7 +28,7 @@
 	</ItemGroup>
 
 	<ItemGroup>
-		<PackageReference Include="ServiceStack.Text" Version="8.5.2" />
+		<PackageReference Include="ServiceStack.Text" Version="10.0.6" />
 	</ItemGroup>
 
 </Project>
